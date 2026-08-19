@@ -1,5 +1,6 @@
 hytti=input("Anna hyttiluokka: ")
 
+#tarkastellaan mikä hyttiluokka on kysessä if lausekkeilla ja annetaan sen mukainen vastaus.
 if hytti =="LUX":
     print("LUX on parvekkeelinen hytti yläkannella")
 elif hytti=="A":
