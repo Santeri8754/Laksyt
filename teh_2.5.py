@@ -18,7 +18,7 @@ luoti_g=luoti*13.3
 #Lasketaan yhteen.
 yhteensä_g=naula_g+luoti_g+leiviskä_g
 
-#Garmmat kilogrammoiksi
+#Grammat kilogrammoiksi
 kg=yhteensä_g//1000
 
 # Otetaan yli jääneet grammat
