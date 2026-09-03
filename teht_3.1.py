@@ -7,3 +7,6 @@ if kuhan_pituus < 37:
     alamitta = 37 - kuhan_pituus
     print(f"kuhasi on {alamitta} cm liian lyhyt!")
     print("Laske kuha takaisin järveen")
+
+else:
+    print("Kuhasi on täydellinen")
