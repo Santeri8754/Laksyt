@@ -10,8 +10,8 @@ yhteys = mysql.connector.connect(
         use_pure=True
 
      )
-koodi=input("Anna ICAO koodi:")
-sql = f"select name,municipality from airport where ident = '{koodi}'"
+icao_koodi=input("Anna ICAO koodi:")
+sql = f"select name,municipality from airport where ident = '{icao_koodi}'"
 kursori = yhteys.cursor()
 kursori.execute(sql)
 
