@@ -16,9 +16,9 @@ if sukupuoli=="nainen":
 # Tässä sitten taas sama homma miehille.
 if sukupuoli=="mies":
     print("olet mies")
-    if hemo<134:
+    if hemo < 134:
         print("arvosi ovat liian alhaiset")
-    elif hemo> 195:
+    elif hemo > 195:
         print("Arvosit ovat liian korkeat")
     else:
         print("Arvosit ovat normaalit")
